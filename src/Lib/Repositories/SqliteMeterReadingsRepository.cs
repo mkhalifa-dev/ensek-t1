@@ -4,7 +4,7 @@ using Lib.Models;
 
 namespace Lib.Repositories
 {
-    public class SqliteMeterReadingsRepository : SqliteRepoistoryBase, IMeterReadingsRepository
+    public class SqliteMeterReadingsRepository : SqliteRepositoryBase, IMeterReadingsRepository
     {
         public SqliteMeterReadingsRepository(DbConfig dbConfig) : base(dbConfig)
         {

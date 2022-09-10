@@ -4,7 +4,7 @@ using Lib.Models;
 
 namespace Lib.Repositories
 {
-    public class SqliteAccountsRepository : SqliteRepoistoryBase, IAccountsRepository
+    public class SqliteAccountsRepository : SqliteRepositoryBase, IAccountsRepository
     {
         public SqliteAccountsRepository(DbConfig dbConfig) : base(dbConfig)
         {

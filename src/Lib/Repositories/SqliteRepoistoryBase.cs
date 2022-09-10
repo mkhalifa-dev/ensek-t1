@@ -1,14 +1,13 @@
 ﻿using Lib.Models;
 using Microsoft.Data.Sqlite;
-using System.Data.SqlClient;
 
 namespace Lib.Repositories
 {
-    public abstract class SqliteRepoistoryBase
+    public abstract class SqliteRepositoryBase
     {
         private readonly DbConfig dbConfig;
         
-        public SqliteRepoistoryBase(DbConfig dbConfig)
+        public SqliteRepositoryBase(DbConfig dbConfig)
         {
             this.dbConfig = dbConfig;
         }
